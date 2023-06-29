@@ -1,0 +1,86 @@
+*{
+ 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.galleta{
+  text-align: center;
+  font-size: 3rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-variant: small-caps; 
+  text-decoration-color: aliceblue;
+  
+}
+
+.arrow bx-sm bx-fw {
+  text-align: center;
+}
+article {
+  display: flex;
+  background: white;
+  border-radius: 2rem;
+  padding: 2rem;
+  text-align: center;
+  width: 400px;
+  margin: 1rem auto;
+  position: relative;
+}
+.fortuna {
+  display: table-cell;
+  font-size: 1rem;
+  margin: 2rem;
+  padding: 0 1rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  top: 50%;
+  line-height: 1.5;
+}
+.hr Escritor {
+  height: 7rem;
+}
+button {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: medium;
+  text-align: center;
+  width: 15rem;
+  margin-top: 20px;
+  padding: 15px 32px;
+  border: 10%;
+  cursor: pointer;
+  position:relative;
+  border-radius: 20px;
+  transition: all 400ms ease;
+  box-shadow: 0px 1px 10px rgba(0,0,0,0,2);
+ 
+}
+button:hover {
+  box-shadow: 5px 5px 20px rgba(0,0,0,0,4);
+  transform: translateX(-3%);
+}
+
+@media screen and (max-width: 500px) {
+  .fortuna {
+    display: inline-block;
+    height: 200px;
+    width: 250px;
+    text-align: center;
+  }
+}
+  @media screen and (max-width: 300px) {
+    .fortuna {
+      display: inline-block;
+      height: 150px;
+      width: 100px;
+      text-align: center;
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+    .fortuna {
+      display: inline-block;
+      height: 500px;
+      width: 300px;
+      text-align: center;
+    }
+
+  }
